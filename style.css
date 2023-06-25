@@ -1,0 +1,56 @@
+body{
+    background: #959595 !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.img-cafecito{
+    max-width: 85px;
+    
+}
+.navbar_icons{
+   width: 35px;
+   height: 35px;
+   margin: 10px;
+}
+.dino{
+    display: flex;
+    justify-content: center !important;
+    width: 100%;
+}
+.img-cafecito:hover{
+    scale: 1.1;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 2px #fff;
+    
+}
+.gif-yo{
+    width: 200px;
+}
+.iconic-color{
+    color: #a1e6ff !important;
+}
+.iconic-color:hover{
+    color: #6fb6d0 !important;
+    transition: all .3s;
+}
+.carousel-item{
+    height: 350px;
+}
+@media (width <= 770px) {
+    .dino{
+       display: none;
+    } 
+    .gif-yo{
+        width: 150px;
+    }
+}
+.bg{
+    background: #8a8a8a;
+}
+.titulo{
+    font-size: 35px;
+    text-shadow: 1px 2px #fff;
+}
